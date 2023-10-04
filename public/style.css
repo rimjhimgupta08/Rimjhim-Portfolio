@@ -1,0 +1,401 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+      /* overflow: hidden; */
+}
+
+body {
+      background-color: rgb(19, 19, 19);
+      color: white;
+      font-family: Helvetica, sans-serif;
+      /* animation: animate 2s linear;  */
+      overflow-x: hidden;
+
+}
+ /* @keyframes animate {
+      10% {
+            transform: translateX(100%);
+      }
+} */
+nav{
+      width: 100%;
+      /* height: 75px; */
+      background-color: rgb(35, 34, 34);
+      position: fixed;
+      top: 0;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-bottom:2px solid white ;
+}
+
+nav .logo{
+      float: left;
+      font-size: 1.3rem;
+      color: aqua;
+}
+/* Add this to your existing CSS */
+span{
+      color: aqua;
+      font-size: 1.7rem;
+}
+#element{
+      font-size: 1.6rem;
+      font-weight: 700;
+}
+nav .list-menu{
+      display: inline-block;
+      position: relative;
+
+
+}
+nav ul .menu{
+      display: inline-block;
+      margin-right: 30px;
+      position: relative;
+
+}
+nav ul .menu a{
+      color: white;
+      font-size: 1.2rem;
+      padding: 10px;
+}
+nav ul .menu a:hover{
+      color: aqua;
+      text-decoration: underline aqua;
+}
+nav ul .active{
+      color: aqua;
+}
+
+#hero {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 150px;
+}
+
+.home {
+      margin: 10px;
+      line-height: 30px;
+
+}
+.icon{
+      color: white;
+      font-size: 2rem;
+      display: none;
+}
+
+#hero .home {
+      margin-right: 70px;
+      text-align: center;
+      /* padding-left: ; */
+}
+
+button {
+      margin-right: 30px;
+      box-shadow: 10px 4px 5px aqua;
+      transition: 1s ease;
+}
+
+button:hover {
+      transform: rotate(2deg);
+}
+
+button a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.2rem;
+      text-align: center;
+      font-weight: 700;
+}
+
+.home p {
+      font-size: 1.2rem;
+}
+
+.home i {
+      text-decoration: none;
+      color: aqua;
+      width: 60px;
+      margin-top: 40px;
+      margin-right: 30px;
+      font-size: 40px;
+      border: 6px solid aqua;
+      border-radius: 50%;
+      box-shadow: 3px 3px 6px aqua;
+      text-align: center;
+}
+
+.home button {
+      background-color: aqua;
+      border-radius: 20px;
+      margin-top: 40px;
+      border: 10px solid aqua;
+}
+
+.home button a {
+      gap: 30px;
+      margin-right: 30px;
+}
+
+.home p span {
+      font-size: 1.4rem;
+      font-weight: 700;
+}
+
+#hero .img img {
+      width: 350px;
+      height: 350px;
+      margin-top: 50px;
+      border: 16px solid rgb(27, 150, 150);
+      border-radius: 50%;
+      /* box-shadow: 20px 10px  10px aqua; */
+      transition: 1s ease-in;
+}
+
+/* About section here */
+#about {
+      display: flex;
+      margin-top: 200px;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgb(29, 28, 28);
+      height: 600px;
+      width: 100%;
+      padding: 20px 0;
+}
+
+#about .img img {
+      height: 300px;
+      border-radius: 20px;
+      border: 20px solid rgb(74, 76, 76);
+      margin-left: 30px;
+      border-radius: 50%;
+}
+
+#about .intro {
+      margin-right: 10px;
+      margin-left: 10px;
+      
+}
+.intro p{
+      font-size: 1.3rem;
+}
+
+#hero .img img:hover {
+      height: 390px;
+}
+/* Skills section here */
+
+#skills {
+      width: 100%;
+      height: 100%;
+      padding: 20px 0px;
+
+}
+
+#height {
+      color: aqua;
+      text-align: center;
+      font-size: 2rem;
+      margin-top: 50px;
+}
+.box img {
+      margin-bottom: 10px;
+}
+
+.boxes {
+
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
+.box h1 {
+      margin-top: 20px;
+}
+
+.boxes .box {
+      margin-right: 50px;
+      margin-left: 40px;
+      margin-top: 30px;
+      height: 300px;
+      width: 250px;
+      text-align: center;
+      border-radius: 10px;
+      transition: 1s ease-in;
+      background-color: rgb(42, 41, 41);
+}
+.boxes .box h1 {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+}
+
+
+.boxes .box:hover {
+      border: 2px solid white;
+}
+
+.box ul {
+      margin-top: 0;
+}
+
+.box ul li {
+      list-style-type: none;
+
+}
+
+.box img {
+      height: 100px;
+}
+
+/* project section here */
+#project {
+      width: 100%;
+      height: 100%;
+      padding: 20px 0px;
+      margin-top: 30px;
+}
+
+
+#project .pro {
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: 50px;
+      margin-right: 40px;
+}
+
+.pro .section {
+      margin-top: 60px;
+      height: 300px;
+      width: 260px;
+      text-align: center;
+      border-radius: 10px;
+
+      background-color: rgb(42, 41, 41);
+}
+.pro .section  h2{
+      margin-top: 20px;
+      font-size: 1.4rem;
+}
+.pro .section  p{
+      margin: 15px;
+}
+
+.pro .section:hover {
+      border: 2px solid white;
+}
+
+.pro .section img {
+      width: 180px;
+      margin: 10px 20px;
+}
+
+
+#contact {
+
+      width: 100vw;
+      padding: 20px ;
+      overflow: hidden;
+      
+}
+
+ .form {
+ 
+      background-color: rgb(48, 46, 46);
+      text-align: center;
+      margin-top: 30px;
+      border-radius: 30px;
+      transition: .3s ease;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      
+
+}
+.form #submit{
+      width: 100px;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+      box-shadow: 5px 6px aqua;
+      transition: 1s linear;
+}
+.form #submit:hover{
+      background-color: rgb(78, 235, 235);
+      color: black;
+}
+
+
+#contact .form:hover {
+      border: 2px solid white;
+}
+
+.form input {
+      width: 65%;
+      height: 30px;
+      margin-top: 20px;
+      border-radius: 10px;
+
+}
+
+.form button:hover {
+      border: 2px solid aqua;
+      background-color: rgb(111, 9, 43);
+
+}
+
+.form {
+      font-size: 1.2rem;
+      font-weight: 700;
+      /* font-style: italic; */
+}
+
+/* footer section */
+.footer {
+      background-color: rgb(48, 46, 46);
+      padding: 30px 0px;
+      display: flex;
+      height: 350px;
+      /* width: 50%; */
+      justify-content: center;
+      align-items: center;
+      /* margin-left: 200px;
+      margin-right: 200px; */
+      margin-top: 50px;
+      padding: 30px 0px;
+}
+
+.foot-clone img {
+      width: 130px;
+      transition: 2s ease-in;
+      margin-left: 80px;
+}
+
+.foot-clone h3 {
+      font-size: 1.2rem;
+      margin-top: 30px;
+}
+
+.foot-clone a i {
+      text-decoration: none;
+      color: aqua;
+      width: 50px;
+      margin-top: 30px;
+      margin-right: 20px;
+      font-size: 30px;
+      border: 6px solid aqua;
+      border-radius: 50%;
+      box-shadow: 3px 3px 6px aqua;
+      text-align: center;
+}

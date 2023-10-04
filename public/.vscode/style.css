@@ -1,0 +1,48 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+}
+.menu-right{
+      text-align: right;
+}
+ul li{
+      display: inline-block;
+      margin: 20px;
+
+}
+ul li a{
+      color: white;
+}
+.nav-bar{
+      background: rgb(33, 4, 59);
+      padding: 20px;
+      font-size: 1.3rem;
+}
+span{
+      color: white;
+      font-size: 1.8rem;
+      margin: 0 20px;
+      cursor: pointer;
+      display: none;
+}
+.nav-bar h2{
+      height: 45px;
+      color: white;
+      float: left;
+      margin-right: 20px;
+      margin-top: 10px;
+}
+@media only screen and (max-width:700px) {
+      span{
+            display: block;
+      }
+      ul li{
+            display: block;
+      }
+      ul{
+            display: none;
+      }
+}

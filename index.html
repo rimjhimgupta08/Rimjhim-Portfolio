@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio Project</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="media-querie.css">
+</head>
+
+
+<body>
+      <nav>
+            <div class="logo">
+                  <h2>Rimjhim</h2>
+            </div>
+            <!-- <input type="checkbox" id="check"> -->
+            <!-- <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+            </label> -->
+            <ul id="list-menu" class="list-menu">
+                  <li class="menu"><a href="#" class="active">Home</a></li>
+                  <li class="menu"><a href="#about" >About</a></li>
+                  <li class="menu"><a href="#skills" >Skills</a></li>
+                  <li class="menu"><a href="#project" >Project</a></li>
+                  <li class="menu"><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
+      </nav>
+        
+      <section id="hero">
+            <div class="home">
+                  <h1>Hi, I am <span id="bold">Rimjhim Gupta</span> </h1>
+                  <h3>I am a Frontend Developer</h3>
+                  <p>I am a passionate of <br></p>
+                  <span id="element"></span>
+                  <!-- Setup and start animation! -->
+                  <script>
+                        var typed = new Typed('#element', {
+                              strings: ['Web developer', 'Programmer', 'Frontend Developer'],
+                              typeSpeed: 50,
+                        });
+                  </script><br>
+                  <button><a
+                              href="https://drive.google.com/file/d/1Xlc1NdQWMdUnPILGsDfqtcCQDQe0kqMD/view?usp=drive_link">
+                              Download CV</a></button>
+                  <button><a href="https://github.com/settings/profile">Github</a></button><br>
+                  <a href="https://m.facebook.com/profile.php?id=100066771017472"><i class="fa-brands fa-facebook"></i>
+                        <a href="https://www.linkedin.com/in/rimjhim-gupta-95a872229/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/rimjhim__08/"><i class="fa-brands fa-instagram"></i></a>
+
+            </div>
+            <div class="img">
+                  <img src="image.jpg" alt="">
+            </div>
+      </section>
+
+      <section id="about">
+            <div class="img">
+                  <img src="IMG_20230111_113132.JPG" alt="">
+            </div>
+            <div class="intro">
+                  <h1 style="font-size: 2rem;" id="height">About</h2><br>
+                        <p>Hi, I am <span>passionate of frontend developer</span> <br>I want to become a Full Stack Web
+                              <br>
+                              development.I have Knowledge of html,<br> css, Js.I have create a many project like
+                              <br>Amazon
+                              clone, Registration Form.
+                        </p>
+            </div>
+      </section>
+      <section id="skills">
+            <h1 id="height">Skills</h1>
+            <div class="boxes">
+                  <div class="box">
+                        <h1>C Language</h1>
+                        <img src="portfolio2.jpg" alt="">
+                        <ul>
+                              <li>Flow chart</li>
+                              <li>Array</li>
+                              <li>Loops</li>
+                              <li>Operators</li>
+                              <li>Pointer</li>
+                              <li>File Managment</li>
+                        </ul>
+                  </div>
+                  <div class="box">
+                        <h1>CPP</h1>
+                        <img src="portfolio1.jpg" alt="">
+                        <ul>
+                              <li>Flow chart</li>
+                              <li>Array</li>
+                              <li>Loops</li>
+                              <li>Recursion</li>
+                              <li>Oops Consept</li>
+                              <li>Structure</li>
+                        </ul>
+                  </div>
+                  <div class="box">
+                        <h1>HTML</h1>
+                        <img src="portfolio5.jpg" alt="">
+                        <ul>
+                              <li>All Tags</li>
+                              <li>Attributes</li>
+                              <li>Form Tags</li>
+                              <li>List Tags</li>
+                              <li>Toggles</li>
+                        </ul>
+                  </div>
+                  <div class="box">
+                        <h1>CSS</h1>
+                        <img src="portfolio6.jpg" alt="">
+                        <ul>
+                              <li>Styles</li>
+                              <li>Margin, Padding, Border</li>
+                              <li>Animation</li>
+                              <li>Transition</li>
+                              <li>Flex Box</li>
+                              <li>Display Element</li>
+                        </ul>
+                  </div>
+                  <div class="box">
+                        <h1>DBMS</h1>
+                        <img src="portfolio3.jpg" alt="">
+                        <ul>
+                              <li>What is DBMS</li>
+                              <li>Types of dbms</li>
+                              <li>File Managment</li>
+                              <li>DDL,DCL,TCL</li>
+                              <li></li>
+                        </ul>
+                  </div>
+                  <div class="box">
+                        <h1>SQL</h1>
+                        <img src="portfolio4.jpg" alt="">
+                        <ul>
+                              <li>What is Sql</li>
+                              <li>Queries in sql</li>
+                              <li>Commands</li>
+                              <li>Insert,delete,Update</li>
+                        </ul>
+                  </div>
+            </div>
+      </section>
+      <!-- project section start from here -->
+      <section id="project">
+            <h1 id="height"> Latest Project</h1>
+            <div class="pro">
+
+                  <div class="section">
+                        <h2>Amazon Clone</h2>
+                        <img src="clone.jpg" alt="">
+                        <button><a href="Project/index.html"> View Project</a></button>
+                        <p>This is a amazon clone.This clone is responsive and flexible and comfortable to all Screen.
+                        </p>
+                  </div>
+
+                  <div class="section">
+                        <h2>GLSports Website</h2>
+                        <img src="web-dev.jpg" alt="">
+                        <button><a href="GLSports_web/index.html"> View Project</a></button>
+                        <p>GLSprts Website. This is also responsive and comportable to all screen.</p>
+                  </div>
+
+            </div>
+      </section>
+      <section id="contact">
+            <h1 id="height">Contact</h1><br>
+            <div class="form">
+                  Name: <input type="text" placeholder="enter your name"><br>
+                  Email-ID: <input type="email" placeholder="Enter your email-ID"><br>
+                  Number: <input type="number" placeholder="Enter Phone number"><br><br>
+                  About US: <br><textarea cols="30" rows="5" placeholder="enter your suggetion"></textarea><br><br>
+                  <!-- <button><a href="rimjhimgupta786@gmail.com">Submit</a></button><br><br> -->
+                  <input type="submit" value="submit" id="submit">
+            </div>
+      </section>
+      <footer>
+            <div class="footer">
+                  <div class="foot-clone">
+                        <img src="thank-you.jpg" alt="">
+                        <h3>Hi, <span>Thank You</span> so much visit my website. <br>You can follow me on Social media
+                        </h3>
+                        <a href="https://m.facebook.com/profile.php?id=100066771017472"><i class="fa-brands fa-facebook"></i>
+                              <a href="https://www.linkedin.com/in/rimjhim-gupta-95a872229/"><i
+                                          class="fa-brands fa-linkedin"></i></a>
+                              <a href="https://www.instagram.com/rimjhim__08/"><i class="fa-brands fa-instagram"></i></a>
+                              <a href="https://github.com/settings/profile"><i class="fa-brands fa-github"></i></a>
+
+                  </div>
+            </div>
+      </footer>
+      <script>
+            const toggleNavbar = ()=>{
+                  var x = document.getElementById('list-menu');
+                  if(x.style.display == 'block'){
+                        x.style.display = 'none';
+                  }
+                  else{
+                        x.style.display = 'block';
+                  }
+            }
+            
+              
+      </script>
+</body>
+
+</html>
