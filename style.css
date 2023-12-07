@@ -33,6 +33,9 @@ nav{
       border-bottom:2px solid white ;
 }
 
+nav #hide-bars{
+      display: none;
+}
 nav .logo{
       float: left;
       font-size: 1.3rem;

@@ -19,11 +19,10 @@
             <div class="logo">
                   <h2>Rimjhim</h2>
             </div>
-            <!-- <input type="checkbox" id="check"> -->
-            <!-- <label for="check" class="checkbtn">
-                  <i class="fas fa-bars"></i>
-            </label> -->
+            
             <ul id="list-menu" class="list-menu">
+                  <i class="fa-brands fa-times" id="hide-bars"></i>
+
                   <li class="menu"><a href="#" class="active">Home</a></li>
                   <li class="menu"><a href="#about" >About</a></li>
                   <li class="menu"><a href="#skills" >Skills</a></li>
@@ -43,7 +42,8 @@
                   <script>
                         var typed = new Typed('#element', {
                               strings: ['Web developer', 'Programmer', 'Frontend Developer'],
-                              typeSpeed: 50,
+                              typeSpeed: 100,
+                              
                         });
                   </script><br>
                   <button><a
@@ -206,6 +206,13 @@
                         x.style.display = 'block';
                   }
             }
+            
+            const menu = document.querySelector('#hide-bars');
+            const hide  = document.querySelector('#list-menu')
+            menu.addEventListener('click',()=>{
+                  
+                  hide.style.display = 'none';
+            })
             
               
       </script>
