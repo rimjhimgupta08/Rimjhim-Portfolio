@@ -294,7 +294,10 @@ button a {
 .pro .section:hover {
       border: 2px solid white;
 }
-
+ .footer span{
+      font-size: 1.2rem;
+      font-style: italic;
+ }
 .pro .section img {
       width: 180px;
       margin: 10px 20px;
@@ -375,7 +378,9 @@ button a {
       margin-top: 50px;
       padding: 30px 0px;
 }
-
+ .footer h2{
+      text-align: center;
+ }
 .foot-clone img {
       width: 130px;
       transition: 2s ease-in;

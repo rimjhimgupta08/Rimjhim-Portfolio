@@ -1,174 +1,222 @@
-@media screen  and (max-width: 991px) {
+@media screen and (max-width: 991px) {
 
-     .icon{
+     .icon {
           display: block;
      }
-     nav .list-menu{
-          display: none;
+
+     nav .list-menu {
+          /* display: none;
           padding-top: 50px;
+          line-height: 40px; */
+          display: none;
+          position: absolute;
+          top: 65px;
+          right: 0px;
+          background: black;
+          padding-top: 0px;
           line-height: 40px;
+          width: 100%;
+          text-align: center;
      }
 
-nav .list-menu .menu{
-     display: block;
+     nav .list-menu .menu {
+          display: block;
+          /* top: -100%; */
 
-}
-     
+     }
 
-     nav .logo{
+     nav #hide-bars{
+          /* float: right; */
+          display: block;
+          /* margin-right: 50px; */
+          position: absolute;
+          right: 30px;
+          top: 10px;
+          font-size: 1.3rem;
+          font-weight: 300;
+     }
+
+     nav .logo {
           font-size: 1rem;
      }
 
-      #hero{
-            margin-top: 80px;
-            margin-left: 30px;
-      }
-      #hero .home{
-            margin-top: 60px;
-      }
-      #hero .img img {
-            width: 300px;
-            height: 300px;
-            margin-right: 12px;
-            
-      }
-      #about .img img{
-            height: 280px;
-      }
-     }   
+     #hero {
+          margin-top: 80px;
+          margin-left: 30px;
+     }
+
+     #hero .home {
+          margin-top: 60px;
+     }
+
+     #hero .img img {
+          width: 300px;
+          height: 300px;
+          margin-right: 12px;
+
+     }
+
+     #about .img img {
+          height: 280px;
+     }
+}
 
 
 @media screen and (max-width:767px) {
-      .navbar.flex{
+     .navbar.flex {
           /* margin-left: 150px; */
           /* margin-right: 100px; */
-          padding: 0 20px; 
+          padding: 0 20px;
           width: 100vw;
           height: 100vh;
-          justify-content: center; 
-      }
-     .navbar .flex li a{
+          justify-content: center;
+     }
+
+     .navbar .flex li a {
           display: inline;
-          justify-content: center; 
+          justify-content: center;
           text-align: center;
           justify-items: center;
           flex-wrap: wrap;
 
           font-size: .9rem;
-      } 
-       #hero{
-            flex-direction:column-reverse;
-       }
-       #hero .img img {
-            width: 300px;
-            height: 300px;
-            margin-right: 20px;
-       }
-       #hero .home{
-            text-align: center;
-       }
-       #about{
-            height: 570px;
-            width: 100%;
-            flex-direction: column;
-       }
-       #about .intro p{
+     }
+
+     #hero {
+          flex-direction: column-reverse;
+     }
+
+     #hero .img img {
+          width: 300px;
+          height: 300px;
+          margin-right: 20px;
+     }
+
+     #hero .home {
+          text-align: center;
+     }
+
+     #about {
+          height: 570px;
+          width: 100%;
+          flex-direction: column;
+     }
+
+     #about .intro p {
           font-size: 1rem;
-       }
-       #about .img img{
+     }
+
+     #about .img img {
           margin-top: 40px;
-       }
-       #about .intro{
-            font-size: .9rem;
-            text-align: center;
-            margin-bottom: 8px;
-       }
-       
+     }
+
+     #about .intro {
+          font-size: .9rem;
+          text-align: center;
+          margin-bottom: 8px;
+     }
+
 
 }
 
 @media screen and (max-width:530px) {
-     .navbar.flex{
+     .navbar.flex {
           display: inline-flex;
           justify-content: flex-start;
           width: 530vw;
           height: 100vh;
           flex-wrap: wrap;
      }
-     .navbar.flex li a{ 
+
+     .navbar.flex li a {
           flex-wrap: wrap;
           flex-shrink: initial;
           font-size: .6rem;
 
      }
 
-      #height{
-            margin-top: 5px;
-      }
-      #hero .img img{
-            width: 270px;
-            height: 270px;
-            overflow: hidden;
-            /* margin-left: 5px; */
-      }
-      #hero .home{
-            text-align: center;
-            margin-left: 50px;
+     #height {
+          margin-top: 5px;
+     }
 
-      }
-      #about{
-            flex-direction: column;
-            width: 100%;
-       }
-       #about{
-            height: 570px;
-            width: 100%;
-            /* margin: 30px; */
-            left: 0;
-       }
-       #about .img img{
-            width: 200px;
-            height: 200px;
-            margin-top: 30px;
-            border: 4px solid aqua;
-       }
-       #about #height{
-            margin: 0px;
-       }
-       #about .intro{
-            font-size: .8rem;
-            margin: 20px;
-            text-align: center;
-       }
-       #about .intro p{
+     #hero .img img {
+          width: 270px;
+          height: 270px;
+          overflow: hidden;
+          /* margin-left: 5px; */
+     }
+
+     #hero .home {
+          text-align: center;
+          margin-left: 50px;
+
+     }
+
+     #about {
+          flex-direction: column;
+          width: 100%;
+     }
+
+     #about {
+          height: 570px;
+          width: 100%;
+          /* margin: 30px; */
+          left: 0;
+     }
+
+     #about .img img {
+          width: 200px;
+          height: 200px;
+          margin-top: 30px;
+          border: 4px solid aqua;
+     }
+
+     #about #height {
+          margin: 0px;
+     }
+
+     #about .intro {
+          font-size: .8rem;
+          margin: 20px;
+          text-align: center;
+     }
+
+     #about .intro p {
           font-size: 1rem;
-       }
-       span{
-            font-size: 1.2rem;
-       }
-       
-       #height{
+     }
+
+     span {
+          font-size: 1.2rem;
+     }
+
+     #height {
           font-size: 1.6rem;
-       }
-       .form{
+     }
+
+     .form {
           font-size: .9rem;
-       }
-       .footer{
-               width: 100%;
-               height: 400px;
-               right: 0;
-               left: 0;
-       }
-       .foot-clone, h3{
+     }
+
+     .footer {
+          width: 100%;
+          height: 400px;
+          right: 0;
+          left: 0;
+     }
+
+     .foot-clone,
+     h3 {
           text-align: center;
           font-size: .1rem;
-       }
-       .foot-clone a i{
+     }
+
+     .foot-clone a i {
           width: 40px;
           font-size: 30px;
-       }
-       .foot-clone img {
+     }
+
+     .foot-clone img {
           width: 100px;
           margin-right: 65px;
-       }
+     }
 }
